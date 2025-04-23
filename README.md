@@ -1,7 +1,7 @@
 # Netflix-Data-Exploration-and-Visualisation
 
 ## Problem Statement:
-             Netflix hosts a vast and diverse content library with a global subscriber base exceeding 222 million. However, viewer preferences vary significantly across regions.To sustain growth and improve user engagement, Netflix needs to identify which types of content (by genre, duration, ratings, and release timing) perform best in different countries. The goal is to generate actionable insights that can guide content production, regional marketing strategies, and platform personalization to better cater to local audiences and expand Netflix’s global footprint.
+      Netflix hosts a vast and diverse content library with a global subscriber base exceeding 222 million. However, viewer preferences vary significantly across regions.To sustain growth and improve user engagement, Netflix needs to identify which types of content (by genre, duration, ratings, and release timing) perform best in different countries. The goal is to generate actionable insights that can guide content production, regional marketing strategies, and platform personalization to better cater to local audiences and expand Netflix's global footprint.
 This project analyzes Netflix's global content library to uncover viewer preferences by genre, country, duration, director, cast, rating and time. Insights will guide Netflix on what types of shows or movies to produce and how to grow its subscriber base across different regions.
 
 ## EDA Insights:
