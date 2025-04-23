@@ -8,7 +8,8 @@ This project analyzes Netflix's global content library to uncover viewer prefere
 * The Dataset has 8807 rows and 12 columns
 * Dataset had 4307 null values mainly in Director, cast, country,rating and duration column 
 * Rating column had 3 entries which belongs to duration column, it was later replaced 
-* Cast, Directors, listed_in and country columns had multiple values in each cell hence we unnested these columns separately with title column with .str.split() and explode() function and then merged all 4 Dataframes.
+* Cast, Directors, listed_in and country columns had multiple values in each cell hence we created separate dataframe by unnesting these columns(that is creating separate line for each cast or director in a movie) with title column with .str.split() and explode() function.
+* Merge all 4 Dataframes into a Single DataFrame.
 * Merged the unnested dataframe with the original dataframe to get the final dataframe to work on analysis.
 * Replaced Null values in director column with 'Unknown director'
 * Replaced Null values in Cast column with 'Unknown Actor'
@@ -40,4 +41,5 @@ is highly recommended.
 * for Japan and South Korea: Push mature-rated content and international titles in user homepages.
 * for India: Emphasize titles rated 14+ and above and deprioritize low-performing movie genres.
 * Promote content based on popular genres such as Anime for Japan and Romantic content for South Korea
-* Work with Japanes, korean and Indian Production firms to produce high qualtiy content in target genres. 
+* Work with Japanes, korean and Indian Production firms to produce high qualtiy content in target genres.
+* While creating content take the popular director/Actors into consideration and popular actor and director combinations .
